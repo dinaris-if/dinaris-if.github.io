@@ -96,14 +96,21 @@ h1 {
 
 
 .gallery__img {
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 200px;
 }
-@media(min-width: 1000px) {
+@media(min-width: 1100px) {
    .gallery__img {
-    width: 95%;
-    height: 95%;
+    width: 300px;
+    height: 300px;
 }
+}
+
+@media(min-width: 1600px) {
+    .gallery__img {
+        width: 400px;
+        height: 400px;
+    }
 }
 
 
